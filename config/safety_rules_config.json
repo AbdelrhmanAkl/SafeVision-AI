@@ -1,0 +1,37 @@
+{
+  "helmet": {
+    "positive_class": "helmet",
+    "violation_class": "no_helmet",
+    "category": "Head Protection",
+    "required": true,
+    "weight": 25
+  },
+  "goggles": {
+    "positive_class": "goggles",
+    "violation_class": "no_goggle",
+    "category": "Eye Protection",
+    "required": true,
+    "weight": 15
+  },
+  "gloves": {
+    "positive_class": "gloves",
+    "violation_class": "no_gloves",
+    "category": "Hand Protection",
+    "required": true,
+    "weight": 20
+  },
+  "boots": {
+    "positive_class": "boots",
+    "violation_class": "no_boots",
+    "category": "Foot Protection",
+    "required": true,
+    "weight": 20
+  },
+  "vest": {
+    "positive_class": "vest",
+    "violation_class": null,
+    "category": "High-Visibility Vest",
+    "required": true,
+    "weight": 20
+  }
+}

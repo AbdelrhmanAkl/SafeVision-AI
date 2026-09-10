@@ -1,0 +1,1025 @@
+{
+  "model": "/content/safevision_ai/runs/yolo11n_ppe/weights/best.pt",
+  "test_directory": "/content/safevision_ai/datasets/images/test",
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "images_analyzed": 141,
+  "images_with_ppe": 141,
+  "ppe_detection_rate": 100.0,
+  "images_with_violations": 22,
+  "violation_image_rate": 15.6,
+  "images_insufficient_evidence": 4,
+  "insufficient_evidence_rate": 2.84,
+  "average_measurable_safety_score": 84.43,
+  "violation_image_counts": {
+    "helmet": 28,
+    "gloves": 16,
+    "goggles": 9
+  },
+  "violation_detection_counts": {
+    "no_helmet": 28,
+    "no_gloves": 16,
+    "no_goggle": 9
+  },
+  "all_detection_counts": {
+    "vest": 179,
+    "helmet": 185,
+    "Person": 225,
+    "boots": 199,
+    "none": 64,
+    "gloves": 138,
+    "goggles": 45,
+    "no_helmet": 28,
+    "no_gloves": 16,
+    "no_goggle": 9
+  },
+  "image_results": [
+    {
+      "image": "image1.jpeg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image10.jpeg",
+      "detections": 11,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1003.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1007.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1009.jpg",
+      "detections": 6,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1014.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1019.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1023.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1037.jpeg",
+      "detections": 23,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1065.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1074.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1076.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1088.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1089.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image110.jpg",
+      "detections": 6,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1111.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1114.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1120.jpg",
+      "detections": 3,
+      "violations": 1,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1125.jpg",
+      "detections": 5,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1132.jpg",
+      "detections": 3,
+      "violations": 1,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1133.jpg",
+      "detections": 2,
+      "violations": 0,
+      "safety_score": null,
+      "score_status": "insufficient_evidence"
+    },
+    {
+      "image": "image1139.jpg",
+      "detections": 5,
+      "violations": 2,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1145.jpg",
+      "detections": 13,
+      "violations": 2,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1152.jpg",
+      "detections": 4,
+      "violations": 2,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image116.jpg",
+      "detections": 13,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1178.jpg",
+      "detections": 6,
+      "violations": 4,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1205.jpg",
+      "detections": 12,
+      "violations": 5,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image122.jpeg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1229.jpg",
+      "detections": 3,
+      "violations": 1,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1231.jpg",
+      "detections": 8,
+      "violations": 4,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1235.jpg",
+      "detections": 7,
+      "violations": 3,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1239.jpg",
+      "detections": 9,
+      "violations": 3,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1252.jpg",
+      "detections": 3,
+      "violations": 1,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1256.jpg",
+      "detections": 12,
+      "violations": 2,
+      "safety_score": 66.66,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1264.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1270.jpg",
+      "detections": 2,
+      "violations": 0,
+      "safety_score": null,
+      "score_status": "insufficient_evidence"
+    },
+    {
+      "image": "image1276.jpg",
+      "detections": 4,
+      "violations": 2,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1292.jpg",
+      "detections": 4,
+      "violations": 2,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1293.jpg",
+      "detections": 3,
+      "violations": 1,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1306.jpg",
+      "detections": 6,
+      "violations": 2,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1330.jpg",
+      "detections": 3,
+      "violations": 1,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1331.jpg",
+      "detections": 3,
+      "violations": 1,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1332.jpg",
+      "detections": 4,
+      "violations": 2,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1344.jpg",
+      "detections": 4,
+      "violations": 2,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1354.jpg",
+      "detections": 16,
+      "violations": 9,
+      "safety_score": 0.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image140.jpg",
+      "detections": 6,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image1406.jpg",
+      "detections": 2,
+      "violations": 0,
+      "safety_score": null,
+      "score_status": "insufficient_evidence"
+    },
+    {
+      "image": "image149.jpg",
+      "detections": 12,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image150.jpg",
+      "detections": 7,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image160.jpg",
+      "detections": 5,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image161.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image167.jpg",
+      "detections": 18,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image168.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image169.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image180.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image182.jpg",
+      "detections": 11,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image190.jpg",
+      "detections": 5,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image207.jpg",
+      "detections": 5,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image225.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image231.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image241.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image257.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image271.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image287.jpg",
+      "detections": 4,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image296.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image324.jpg",
+      "detections": 24,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image345.jpg",
+      "detections": 6,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image350.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image361.jpg",
+      "detections": 7,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image381.jpg",
+      "detections": 7,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image389.jpg",
+      "detections": 7,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image393.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image40.jpg",
+      "detections": 6,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image401.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image423.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image431.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image441.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image444.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image450.jpg",
+      "detections": 14,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image459.jpg",
+      "detections": 4,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image460.jpg",
+      "detections": 4,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image462.jpg",
+      "detections": 18,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image470.jpeg",
+      "detections": 10,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image481.jpg",
+      "detections": 13,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image484.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image502.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image517.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image533.jpg",
+      "detections": 9,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image535.jpg",
+      "detections": 4,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image536.jpg",
+      "detections": 29,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image537.jpg",
+      "detections": 17,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image538.jpg",
+      "detections": 21,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image541.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image548.jpg",
+      "detections": 9,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image550.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image58.jpeg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image585.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image6.jpeg",
+      "detections": 9,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image611.jpg",
+      "detections": 22,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image612.jpg",
+      "detections": 24,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image616.jpg",
+      "detections": 5,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image619.jpeg",
+      "detections": 14,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image63.jpg",
+      "detections": 6,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image633.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": null,
+      "score_status": "insufficient_evidence"
+    },
+    {
+      "image": "image694.jpeg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image696.jpg",
+      "detections": 10,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image70.jpeg",
+      "detections": 4,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image700.jpeg",
+      "detections": 5,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image708.jpg",
+      "detections": 7,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image714.jpeg",
+      "detections": 4,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image718.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image722.jpeg",
+      "detections": 6,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image739.jpeg",
+      "detections": 4,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image758.jpg",
+      "detections": 5,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image772.jpg",
+      "detections": 7,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image779.jpg",
+      "detections": 7,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image787.jpg",
+      "detections": 6,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image796.jpg",
+      "detections": 31,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image805.jpg",
+      "detections": 4,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image810.jpg",
+      "detections": 3,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image825.jpg",
+      "detections": 2,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image834.jpg",
+      "detections": 2,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image846.jpg",
+      "detections": 4,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image860.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image884.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image905.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image910.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image913.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image921.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image922.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image923.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image927.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image934.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image935.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image943.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image956.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image965.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image979.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image98.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image987.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    },
+    {
+      "image": "image999.jpg",
+      "detections": 8,
+      "violations": 0,
+      "safety_score": 100.0,
+      "score_status": "measurable"
+    }
+  ]
+}
