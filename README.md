@@ -804,7 +804,7 @@ https://safevision-ai-kk3mxvowvhznzsdgdmzccl.streamlit.app/
 
 ## 👨‍💻 Author
 
-**Abdelrhman Akl**
+**Eng.Abdelrhman Akl**
 
 Computer Vision & AI/ML Engineering Portfolio Project
 
